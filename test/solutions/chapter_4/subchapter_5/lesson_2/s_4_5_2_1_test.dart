@@ -11,7 +11,7 @@ void main() {
       ),
     );
 
-    final textFinder = find.text('Hello World');
+    final textFinder = find.text("Hello World");
     final centerFinder =
         find.ancestor(of: textFinder, matching: find.byType(Center));
     expect(centerFinder, findsOneWidget);
